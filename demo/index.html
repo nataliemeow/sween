@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sween demo</title>
+		<style>
+html, body, #editor { height: 100% }
+body { margin: 0 }
+		</style>
+	</head>
+	<body>
+		<div id='editor'></div>
+		<script type='module'>
+import { createSween } from '../sween/main.js';
+import { langJS } from '../sween-lang-js/main.js';
+
+const sween = createSween(
+	{ rootE: document.getElementById('editor') },
+	langJS
+);
+sween.set('// write some JavaScript code!\n\n');
+		</script>
+	</body>
+</html>
