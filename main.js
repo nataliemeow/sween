@@ -18,7 +18,7 @@
  * 3. This notice may not be removed or altered from any source distribution.
  */
 
-import { $ } from '../forge/main.js';
+import { $ } from './forge.js';
 
 const ids = ['scroller', 'body', 'gutter', 'area', 'input', 'viewLayer', 'selectLayer', 'selection', 'caret'];
 const classes = ['root', 'focused', 'lineNumber', 'Keyword', 'Number', 'String', 'Character', 'Boolean', 'Variable', 'Constant', 'Type', 'Function', 'Punctuator', 'Directive', 'Comment'];
