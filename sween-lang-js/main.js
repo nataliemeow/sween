@@ -20,7 +20,7 @@ const map = {
 };
 
 const keywords = new Set(['async', 'await', 'break', 'case', 'catch', 'class', 'const', 'continue', 'debugger', 'default', 'delete', 'do', 'else', 'export', 'extends', 'false', 'finally', 'for', 'function', 'from', 'if', 'import', 'in', 'instanceof', 'let', 'new', 'null', 'of', 'return', 'static', 'super', 'switch', 'this', 'throw', 'true', 'try', 'typeof', 'var', 'void', 'while', 'with', 'yield']);
-const indentChars = new Set('[()[{!%^&*+=-|<>\/.]');
+const indentChars = new Set('()[{!%^&*+=-|<>\/.');
 
 export const langJS = Base => class extends Base {
 	render() {
